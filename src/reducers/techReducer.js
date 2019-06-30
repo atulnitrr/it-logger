@@ -5,7 +5,6 @@ import {
   SET_LOADING,
   TECHS_ERROR
 } from "../actions/types";
-import { loadOptions } from "@babel/core";
 
 const initialState = {
   techs: null,
@@ -21,10 +20,23 @@ export default (state = initialState, action) => {
         techs: action.payload,
         laoding: false
       };
+    case ADD_TECH:
+      return {
+        ...state,
+        techs: [...state.techs, action.payload],
+        laoding: false
+      };
     case SET_LOADING:
       return {
         ...state,
         laoding: true
+      };
+    case TECHS_ERROR:
+      console.error(action.payload);
+      return {
+        ...state,
+        error: action.payload,
+        laoding: false
       };
     default:
       return state;
