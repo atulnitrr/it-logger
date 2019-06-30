@@ -1,25 +1,18 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Chnaged hard drive on workstation 005",
+      "message": "Failed ",
       "attention": false,
-      "date": "03-02-2019",
-      "tech": "Sam smith"
+      "tech": "Sara Smith",
+      "date": "2019-06-30T07:02:47.742Z",
+      "id": 1
     },
     {
-      "id": 2,
-      "message": "Workstation 2 is not posting ",
+      "message": "Testing daama ",
       "attention": true,
-      "date": "03-02-2019",
-      "tech": "Jon Doe"
-    },
-    {
-      "id": 3,
-      "message": "Chnaged memory  on workstation 050",
-      "attention": false,
-      "date": "03-02-2019",
-      "tech": "Sara Wilson"
+      "tech": "Sara Wilson",
+      "date": "2019-06-30T07:03:01.758Z",
+      "id": 2
     }
   ],
   "techs": [
