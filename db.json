@@ -6,13 +6,6 @@
       "tech": "Sara Smith",
       "date": "2019-06-30T07:02:47.742Z",
       "id": 1
-    },
-    {
-      "message": "Testing daama ",
-      "attention": true,
-      "tech": "Sara Wilson",
-      "date": "2019-06-30T07:03:01.758Z",
-      "id": 2
     }
   ],
   "techs": [
