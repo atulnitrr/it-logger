@@ -9,7 +9,6 @@ import {
   CLEAR_CURRENT,
   SEARCH_LOGS
 } from "./types";
-import { async } from "q";
 
 // export const getLogs = () => {
 //   return async dispatch => {
