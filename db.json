@@ -6,6 +6,13 @@
       "tech": "Sara Smith",
       "date": "2019-06-30T07:02:47.742Z",
       "id": 1
+    },
+    {
+      "id": 2,
+      "message": "Fixed the issue  fff",
+      "attention": false,
+      "tech": "Sara Smith",
+      "date": "2019-06-30T08:08:37.074Z"
     }
   ],
   "techs": [
